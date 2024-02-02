@@ -78,10 +78,8 @@
                          <input type="text" required name="shortlink" class="form-control" placeholder="Enter url">
                          <div class="input-group-addon">
 
+                            <button class="btn btn-success">Create Shortened Link</button>
 
-                         <!-- @if(Auth::check() && Auth::user()->role === 'client') -->
-                            <button class="btn btn-success">Create Shortend Link</button>
-                            <!-- @endif -->
                         </div>
                     </div>
                 </form>
